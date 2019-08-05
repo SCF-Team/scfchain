@@ -1,0 +1,15 @@
+[Unit]
+Description=SupplyFinanceChain Daemon
+
+[Service]
+Type=simple
+ExecStart=/opt/SupplyFinanceChain/bin/SupplyFinanceChaind --net --silent --conf /etc/opt/SupplyFinanceChain/SupplyFinanceChaind.cfg
+# Default KillSignal can be used if/when SupplyFinanceChaind handles SIGTERM
+KillSignal=SIGINT
+Restart=no
+User=SupplyFinanceChaind
+Group=SupplyFinanceChaind
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

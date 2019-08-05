@@ -1,0 +1,3 @@
+opt/SupplyFinanceChain/etc/SupplyFinanceChaind.cfg
+opt/SupplyFinanceChain/etc/validators.txt
+etc/logrotate.d/SupplyFinanceChaind

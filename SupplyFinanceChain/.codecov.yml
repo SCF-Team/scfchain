@@ -1,0 +1,6 @@
+
+codecov:
+  ci:
+    - ci.ops.SupplyFinanceChain.com  # add custom jenkins server
+    - !appveyor
+    - !travis

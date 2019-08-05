@@ -1,0 +1,7 @@
+opt/SupplyFinanceChain/bin/SupplyFinanceChaind
+opt/SupplyFinanceChain/bin/validator-keys
+opt/SupplyFinanceChain/bin/update-SupplyFinanceChaind.sh
+opt/SupplyFinanceChain/etc/SupplyFinanceChaind.cfg
+opt/SupplyFinanceChain/etc/validators.txt
+opt/SupplyFinanceChain/etc/update-SupplyFinanceChaind-cron
+etc/logrotate.d/SupplyFinanceChaind

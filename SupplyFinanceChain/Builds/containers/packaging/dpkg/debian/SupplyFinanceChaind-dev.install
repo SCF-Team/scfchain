@@ -1,0 +1,3 @@
+opt/SupplyFinanceChain/include
+opt/SupplyFinanceChain/lib/*.a
+opt/SupplyFinanceChain/lib/cmake/SupplyFinanceChain

@@ -1,0 +1,3 @@
+opt/SupplyFinanceChain/etc/SupplyFinanceChaind.cfg etc/opt/SupplyFinanceChain/SupplyFinanceChaind.cfg
+opt/SupplyFinanceChain/etc/validators.txt etc/opt/SupplyFinanceChain/validators.txt
+opt/SupplyFinanceChain/bin/SupplyFinanceChaind usr/local/bin/SupplyFinanceChaind

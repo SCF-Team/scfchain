@@ -1,0 +1,15 @@
+/var/log/SupplyFinanceChaind/*.log {
+  daily
+  minsize 200M
+  rotate 7
+  nocreate
+  missingok
+  notifempty
+  compress
+  compresscmd /usr/bin/nice
+  compressoptions -n19 ionice -c3 gzip
+  compressext .gz
+  postrotate
+    /opt/SupplyFinanceChain/bin/SupplyFinanceChaind --conf /opt/SupplyFinanceChain/etc/SupplyFinanceChaind.cfg logrotate
+  endscript
+}
